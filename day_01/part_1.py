@@ -13,5 +13,6 @@ def run(file_name):
             if i + j == 2020:
                 return i * j
 
+
 if __name__ == '__main__':
     print run('input.txt')
