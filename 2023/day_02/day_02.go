@@ -71,7 +71,7 @@ func part2() {
 }
 
 func parseGames() []game {
-	file, err := os.Open("/Users/ksheasby/Projects/advent-2020/2023/day_02/input.txt")
+	file, err := os.Open("input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
